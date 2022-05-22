@@ -1,7 +1,7 @@
 int isVowel(char arr1[], char arr2[]);
 
 int main(){
-    char vowels[] = "aeoui";
+    char vowels[] = "aeouiAEOUI";
     char mystr[] = "string";
     char *ptr1;
     char *ptr2;
@@ -24,7 +24,6 @@ for (j = 0; ptr1[j] != '\0'; j++)
 {
     if (ptr2[i] == ptr1[j]){
         total++;
-        break;
     }
 }
 }
