@@ -34,6 +34,7 @@ int k, l;
 
             for ( l = 0; l < (d_length - k -1); l++ ){
                     if (arr3[l] < arr3[l+1]) {
+                        
                         int temp = arr3[l];
                         arr3[l] = arr3[l+1];
                         arr3[l+1]= temp;
