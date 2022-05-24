@@ -33,7 +33,7 @@ int bubblesort(int *ptr, int length){
 void printarray(int *ptr, int length){
     int i;
     for(i=0; i<length; i++){
-    printf("%d \n", ptr[i]);    
+    printf("element %d : %d \n", i, ptr[i]);    
     }
     
 }
