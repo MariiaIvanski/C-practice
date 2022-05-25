@@ -12,7 +12,7 @@ int main(){
     {
         if (arr[i] <= j)
         {
-            arr2[i] = arr [i];
+            arr2[i] = arr[i];
         } else {
             arr2[i+1] = arr[i];
         }
@@ -34,7 +34,9 @@ int main(){
 
 int printArray (int array[], int size){
 int i;
+
 printf("\n");
+
 for(i=0; i<size; i++)
 {
     printf("%d ",array[i]);
