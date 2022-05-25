@@ -29,7 +29,7 @@ for (i = 0; i < even; i++){
     printf("Even element %d : %d\n", i, arrEven[i]);
 }
 
-printf("---------------------\n");
+
 
 for (i = 0; i < odd; i++){
     printf("Odd element %d : %d\n", i, arrOdd[i]);
