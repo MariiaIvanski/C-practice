@@ -30,7 +30,6 @@ for (i = 0; i < even; i++){
 }
 
 
-
 for (i = 0; i < odd; i++){
     printf("Odd element %d : %d\n", i, arrOdd[i]);
 }

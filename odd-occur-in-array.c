@@ -1,29 +1,20 @@
-int findNumber(int arr[], int length);
+int findNumber(int A[], int N);
 
 int main(){
-    int arr[] = {9, 3, 9, 3, 9, 7, 9};
-    int length = 7; 
+    int A[] = {9, 3, 9, 3, 9, 7, 9};
+    int N = 7; 
     
-findNumber(arr, length);
+findNumber(A, N);
 return 0;
 }
 
-int findNumber(int arr[], int length){
-    int i, j, k= -1;
-    for(i=0; i<length; i++){
-    for(j=i+1; j<length; j++){
-        if(arr[i] == arr[j]){
-            arr[i] = k;
-            arr[j] = k;
-            break;
-        }
-    }    
+int findNumber(int A[], int N){
+    int i, odd = 0;
+    for(i=0; i<N; i++){
+    odd ^= A[i];
 }
+        return odd;
+    
 
-for(i=0; i<length; i++){
-    if(arr[i] != k){
-        return arr[i];
-    }
-}
 return 0;
 }
