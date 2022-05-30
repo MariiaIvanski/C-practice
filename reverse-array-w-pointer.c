@@ -2,7 +2,7 @@ int reverseArray(int *ptr, int length);
 
 int main(){
     int arr[]= {2, 3, 4, 5, 6};
-    int length =5;
+    int length = 5;
     int *ptr;
     ptr = arr;
 
